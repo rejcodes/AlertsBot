@@ -4,9 +4,9 @@ from msgbot import email_alert
 
 def main():
     # message to check for when determining if gift cards are in stock
-    status = 'Home Depot gift cards are out of stock'
+    status = 'gift cards are out of stock'
     # webpage url to check for gift cards
-    webpage = 'https://cardcookie.com/buy-gift-cards/home-depot'
+    webpage = 'https://www.walmart.com/ip/Subway-Multi-Pack-30-Gift-Card/180076122'
 
     # while loop that checks every gift card availability every minute
     while True:
